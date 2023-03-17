@@ -23,10 +23,15 @@ This is the list of features already implemented:
 
 -
 
+**Dependencies**:
+
+* [mitie](https://github.com/mit-nlp/MITIE)
+
+
 **How to use it**:
 
 <pre>
-go build gofreeling.go
+go build cmd/gofreeling.go
 
 ./gofreeling
 </pre>
@@ -56,8 +61,8 @@ http://localhost:9999/analyzer-api
 package main
 
 import (
-	. "./lib"
-	. "./models"
+	. "github.com/advancedlogic/go-freeling/lib"
+	. "github.com/advancedlogic/go-freeling/models"
 	"fmt"
 	"encoding/json"
 )
@@ -87,7 +92,7 @@ TODO:
 * ~~implement WordNet-based sense annotation and disambiguation~~
 
 -
-**Linguistic Data** to run the server can be download here (English only):
+**Linguistic Data** to run the server can be downloaded here (English only):
 
 https://www.dropbox.com/s/fwwvfxp2s7dydet/data.zip
 
