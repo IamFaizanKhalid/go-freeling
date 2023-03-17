@@ -23,6 +23,11 @@ This is the list of features already implemented:
 
 -
 
+**Dependencies**:
+
+* [mitie](https://github.com/mit-nlp/MITIE)
+
+
 **How to use it**:
 
 <pre>
